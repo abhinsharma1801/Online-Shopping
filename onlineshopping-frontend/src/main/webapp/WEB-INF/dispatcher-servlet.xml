@@ -15,8 +15,8 @@
     ">
 
 	<mvc:annotation-driven />
-	<context:component-scan base-package="net.abs.onlineshoppingfrontend.controller"/>
-	<context:component-scan base-package="net.abs.onlineshopping_backend.daoimpl" />
+	<context:component-scan base-package="net.abs.onlineshoppingfrontend"/>
+	<context:component-scan base-package="net.abs.onlineshopping_backend" />
 	
 	<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
